@@ -1,0 +1,72 @@
+body {
+    margin: 0 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background: #fffdfd ;
+}
+body, header, #container {
+    overflow: hidden;
+}
+/* Header */
+header {
+    background: #1d1da0 ;
+    width: 95% ;
+    margin: 0 0 23px 35px ;
+    box-sizing: border-box ;
+    border-bottom-left-radius: 3px ;
+    border-bottom-right-radius: 3px ;
+}
+#login {
+    float: right ;
+    margin-top: -61px ;
+    padding: 0 15px 3px 0 ;
+}
+header h1 {
+    margin-left: 95px ;
+}
+header h1, #login button, #sign-up {
+    color: white ;
+}
+input[type=text], input[type=password], #login a {
+    margin: 0 19px 5px 0 ;
+}
+#login .mail, #login .password, #login button, #login a {
+    float: left ;
+}
+#login .mail, #login .password, #login a {
+    color: #8b8bec ;
+}
+#login button {
+    background: #8b8bec ;
+    margin-top: 23px ;
+    font-size: 15px ;
+}
+input {
+    padding:3px 9px 3px 5px ;
+}
+/* Content */
+#container {
+    background: #d3e9f96b ;
+    padding: 30px ;
+}
+#left-content, #right-content {
+    width: 50% ;
+    box-sizing: border-box ;
+    float: left ;
+}
+#left-content h3 {
+    margin: 0 0 35px 29px ;
+}
+#left-content img {
+    width: 100% ;
+    height: 290px ;
+}
+#right-content {
+    padding: 0 15px ;
+}
+#information {
+    margin-left: 45px ;
+}
+#sign-up {
+    background: green ;
+    padding: 5px 9px ;
+}
